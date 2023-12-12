@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        .container{
+            height: fit-content;
+            width: 33%;
+            background-color: wheat;
+            display: flex;
+            flex-direction: row;
+            margin-left: 35%;
+            margin-top: 5%;
+            align-items: center;
+            justify-content: center;
+            border-radius: 40px;
+            position: relative;
+        }
+        .container1{
+            height: max-content;
+            width: 33%;
+            background-color: transparent;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 40px;
+            margin-top: 5%;
+            position: relative;
+            padding:10px 10px 10px 10px ;
+        }
+        .container2{
+            height: max-content;
+            width:23%;
+            background-color: transparent;
+            align-items: center;
+            justify-content: center;
+            border-radius: 40px;
+            position: relative;
+            padding:10px 10px 10px 10px ;
+
+
+        }
+        .DISP{
+            display: flex;
+            flex-direction: row;
+        }
+        .container1:hover{
+            transform: scale(1.01);
+            box-shadow: 15px;
+            background-color: wheat;
+            transition: 2s;
+        }
+        .container:hover{
+            background-color: black;
+            transition: 2s;
+        }
+        .container:hover .image .img1{
+            transform: rotateX(-90deg);
+            transition: 2s;
+        }
+        .img1{
+            height: 150px;
+            border-radius: 50%;
+            position:absolute;
+        }
+        .img2{
+            height: 150px;
+            border-radius: 50%;
+        }
+        .consub{
+            color: black;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+        }
+        .container:hover .consub{
+            color: white;
+            transition: 2s;
+        }
+        .icon{
+            height: 5%;;
+            width: 5%;
+        }
+        @font-face {
+            font-family: myfont;
+            src: url('RubikBubbles-Regular.ttf');
+        }
+        @font-face {
+            font-family: Heading;
+            src: url('Lobster-Regular.ttf');
+        }
+        .profile{
+                font-family:myfont;
+                font-size:  xx-large;
+        }
+            body{
+                background-image: url("https://media2.giphy.com/media/xVn3ZmKrKIOLS/giphy.webp?cid=ecf05e47xufyd8p5wfuj726pd4429wgmiap2ja3jnegmsx8d&ep=v1_gifs_search&rid=giphy.webp&ct=g");
+                background-attachment: fixed;
+            }
+        .frame{
+                background-color: wheat;
+                height: max-content;
+                width: 20%;
+                margin-left: 70%;
+                margin-top: -30%;  
+                text-align: center;  
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: larger;
+                    font-weight: normal;  
+                    border-radius: 40px;
+                    overflow: hidden;
+                }
+                @keyframes Heading {
+                    0% {color: rgb(255, 255, 255);}
+                    25% {color: rgb(146, 208, 255);}
+                    50% {color: rgb(67, 94, 231);}
+                    75% {color: rgba(4, 7, 155, 0.347);}
+                }
+            h1{
+                font-family: Heading;
+                text-align: center;
+                font-size: 75px;
+                color: whitesmoke;
+                animation: Heading 4s ;
+                animation-iteration-count: 200;
+            }
+            .cards{
+                display: flex;
+                flex-direction: row;
+                background-color: whitesmoke;
+                width: 100%;
+                height: fit-content ;
+                margin-top: 40px;
+                height: max-content;
+            }
+    </style>
+</head>
+<body>
+    <h1>My Portfolio</h1>
+    <div class="container">
+        <div class="image">
+                <img class="img1" src="img1.jpeg">
+                <img class="img2" src="img2.jpeg">
+        </div>
+        <div class="consub">
+            <p>Gowthaam J</p>
+            <p>Student at Sri Krishna College of Technology</p>
+        </div>
+    </div>
+    <div class="cards">
+    <div class="container1">
+        <p class="profile">Profile</p>
+        <p>I am a dedicated and ambitious student pursuing a degree in BE CSE
+            (Al & ML) at Sri Krishna College of Technology in Coimbatore, Tamil
+            Nadu. As a student, I am constantly seeking opportunities to learn and
+            grow, and I possess strong communication skills, the ability to work
+            well under pressure, and a natural aptitude for leadership. I am a fast
+            learner and thrive in challenging environments. I am motivated to excel
+            academically and contribute positively to my field of study. My future
+            goals include gaining practical experience and applying my knowledge
+            and skills in the real world. I am excited to continue my education and
+            make a meaningful impact in the field of Al and ML.</p>
+        </div>
+        <div class="container1">
+            <p class="profile">SKILLS</p>
+            <p>
+                lkn
+            </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
