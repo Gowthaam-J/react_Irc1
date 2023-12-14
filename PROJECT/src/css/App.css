@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+button{
+  align-items: center;
+  margin-left: 45%;
+  margin-top: 5%;
+  width: 10%;
+  height: 15%;
+  border-radius: 20px;
+  font-size: larger;
+  background: linear-gradient(0.25turn, #000000, #072b56, #055f86);
+  color: whitesmoke;
+  border: solid 2px;
+}
+button:active{
+  background-color: blue;
+  transform: scale(1.2);
+  border-color: black;
+}
