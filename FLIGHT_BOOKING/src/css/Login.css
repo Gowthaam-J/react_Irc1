@@ -1,0 +1,76 @@
+.container{
+    align-items: center;
+    width: max-content;
+    height: max-content;
+    background-color: honeydew;
+    margin-top: 2%;
+    margin-left: 35%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+@font-face {
+    font-family: My_font;
+    src: url('Lobster-Regular.ttf');
+}
+.head{
+    font-family:My_font;
+    text-align: center;
+    font-size: 50px;
+}
+input{
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    height: 30px;
+    background-color: transparent;
+    position: relative;
+    font-size: 25px;
+}
+.icon{
+    height: 30px;
+    width: 20px;
+    background-color: transparent;
+}
+input:focus{
+    background-color: white;
+    transform: scale(1.1);
+        border-left-style: none;
+        border-right-style: none;
+        border-top-style: none;
+    
+}
+.row{
+    width: max-content;
+}
+.submit{
+    background: linear-gradient(0.25turn, #1d02b6, #034571, #a7d0e2);
+    color: whitesmoke;
+    font-size: larger;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 1px;
+}
+.submit:hover{
+    color: white;
+    border-color: black;
+    border: solid 2px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.S{
+        background: url('https://img.freepik.com/free-photo/view-air-plane-wing-during-take-off-landing_1359-539.jpg?size=626&ext=jpg&ga=GA1.1.303943400.1702105787&semt=ais');
+        background-size: 100%;
+        background-repeat: no-repeat;
+}
+input[type="checkbox"]{
+    transform: scale(1.5);
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}

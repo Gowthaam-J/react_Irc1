@@ -1,0 +1,64 @@
+.Row{
+    background-image: url('../BackFinal.jpg');
+    background-size: contain;
+        background-repeat: no-repeat;
+}
+.outer{
+    background-color:honeydew;
+    margin-top: 2%;
+    width: 80%;
+    height: fit-content;
+    margin-left: 10%;
+    opacity: .7;
+}
+.Trip{
+    display: flex;
+    flex-direction: row;
+    background-color:honeydew;
+    padding: 20px;
+}
+.items{
+        width: fit-content;
+        height:80px;
+        background-color:whitesmoke;
+        border: dashed 2px black;
+}
+.date{
+    width: 200px;
+    height:  53px;
+    color:black;
+    font-size:x-large ;
+}
+
+.FareType{
+        background-color: honeydew;
+        width: max-content;
+}
+.Inside{
+    display: flex;
+    flex-direction: column;
+    margin-top:15%;
+    background-color:honeydew;
+    width: 60%;
+    margin-left: 30%;
+    align-items: start;
+    padding: 20px;
+}
+.items1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: honeydew;
+
+}
+.items11{
+    width: 60%;
+    background-color: honeydew;
+    font-size: larger;
+    justify-content: center;
+    
+}
+
+p{
+    color:black;
+}
